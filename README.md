@@ -1,4 +1,4 @@
-## NeoGPT: Hybrid RAG-Powered Document Knowledge System
+## NeoGPT: Hybrid RAG-Powered Knowledge Management System
 It combines Hybrid Retrieval-Augmented Generation (RAG) with Knowledge Graphs to deliver deliver accurate, context-aware insights.
 
 #### Project Overview
