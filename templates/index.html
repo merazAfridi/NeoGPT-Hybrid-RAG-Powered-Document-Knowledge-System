@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container py-1">
+
+<!-- Main Title Section -->
+<div class="text-center mb-3.5">
+    <h1 class="hero-title">NeoGPT</h1>
+    <p class="hero-subtitle">Local Document Knowledge Graph and Query System</p>
+    <div class="border-bottom my-3"></div>
+</div>
+    <div class="row g-2">
+        <!-- Upload Section -->
+        <div class="col-12">
+            <div class="card upload-card">
+                <div class="card-body p-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h2 class="h6 mb-0">
+                            <i class="bi bi-cloud-upload me-2"></i>Upload Documents
+                        </h2>
+                        <small class="text-muted">(PDF, DOCX, CSV)</small>
+                    </div>
+                    <div class="d-flex gap-2 align-items-center">
+                        <div class="flex-grow-1">
+                            <input type="file" class="form-control form-control-sm" 
+                                   id="fileInput" accept=".pdf,.docx,.csv" multiple>
+                        </div>
+                        <button class="btn btn-primary btn-sm px-3" onclick="uploadFiles()">
+                            <i class="bi bi-upload me-1"></i>Upload
+                        </button>
+                    </div>
+                    <div class="upload-feedback mt-1">
+                        <div id="uploadProgress" class="d-none">
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="spinner-border spinner-border-sm text-primary"></div>
+                                <small class="text-primary">Processing files...</small>
+                            </div>
+                            <div class="progress mt-1" style="height: 2px;">
+                                <div class="progress-bar bg-primary" role="progressbar"></div>
+                            </div>
+                        </div>
+                        <div id="uploadStatus" class="small"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Query and Document Selection -->
+        <div class="row g-2 mt-0">
+            <!-- Question Box -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body p-2">
+                        <h2 class="h6 mb-2">
+                            <i class="bi bi-chat-dots me-2"></i>Ask a Question
+                        </h2>
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="queryInput" 
+                                   placeholder="Enter your question...">
+                            <button class="btn btn-primary" onclick="queryDocuments()">
+                                <i class="bi bi-send me-1"></i>Ask
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Document Selection -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body p-2">
+                        <h2 class="h6 mb-2">
+                            <i class="bi bi-file-text me-2"></i>Select Documents
+                        </h2>
+                        <select class="form-select form-select-sm" id="documents" 
+                                multiple size="2">
+                            <option value="" disabled>No documents uploaded...</option>
+                        </select>
+                        <small class="text-muted d-block mt-1">Hold Ctrl/Cmd to select multiple</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Answer Section -->
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body p-2">
+                    <h2 class="h6 mb-2">
+                        <i class="bi bi-chat-square-text me-2"></i>Answer
+                    </h2>
+                    <div id="answer" class="border rounded p-2 bg-light">
+                        <small class="text-muted">Answers will appear here...</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

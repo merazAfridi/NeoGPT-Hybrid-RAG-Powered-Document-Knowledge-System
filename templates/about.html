@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container py-3">
+    <!-- Project Information Section -->
+    <div class="card project-card mb-4">
+        <div class="card-body py-2">
+            <h1 class="text-center mb-2 text-light">NeoGPT</h1>
+            <p class="lead text-center text-light mb-2">Local Document Knowledge Graph System</p>
+            <div class="feature-section">
+                <h3 class="text-light"><i class="bi bi-gear-fill me-2"></i>Key Features</h3>
+                <div class="row g-2">
+                    <div class="col-md-6">
+                        <ul class="feature-list">
+                            <li>Multiple document processing (PDF, DOCX, CSV)</li>
+                            <li>Advanced semantic search with FAISS</li>
+                            <li>LLaMA 2 powered responses</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="feature-list">
+                            <li>Knowledge Graph visualization</li>
+                            <li>Real-time document analysis</li>
+                            <li>Secure local processing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile Section -->
+    <div class="row g-4">
+        <!-- Profile Image and Contact -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <div class="profile-image-container mb-3">
+                        <img src="{{ url_for('static', filename='images/meraz.jpg') }}" 
+                             alt="Gazi Meraz Mehedi Afridi" 
+                             class="profile-img">
+                    </div>
+                    <h2 class="h4">Gazi Meraz Mehedi Afridi</h2>
+                    <p class="text-muted mb-3">Research enthusiast in AI, ML, DL, CV & NLP</p>
+                    <div class="contact-links">
+                        <a href="mailto:meraz.afridi@gmail.com" class="btn btn-outline-primary btn-sm mb-2 w-100">
+                            <i class="bi bi-envelope me-2"></i>meraz.afridi@gmail.com
+                        </a>
+                        <a href="https://linkedin.com/in/meraz-afridi/" target="_blank" 
+                           class="btn btn-outline-primary btn-sm mb-2 w-100">
+                            <i class="bi bi-linkedin me-2"></i>LinkedIn Profile
+                        </a>
+                        <a href="https://github.com/merazAfridi" target="_blank" 
+                           class="btn btn-outline-dark btn-sm w-100">
+                            <i class="bi bi-github me-2"></i>GitHub Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Details -->
+        <div class="col-md-8">
+            <!-- Profile Statement -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Profile Statement</h3>
+                    <p class="card-text">
+                        Insightful Computer Science and Engineering graduate, specializing in Machine Learning, Computer Vision, Data
+                        Science, and Natural Language Processing (NLP). Strong foundation in predictive analysis, pattern recognition,
+                        image processing, cloud deployment, and full-stack development. Proficient in programming languages like
+                        Python, Java, C, and C++, and experienced with AI/ML tools such as TensorFlow, Keras, PyTorch, and Hugging
+                        Face. Passionate about researching emerging innovations and applying technology to solve real-world problems.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Experience</h3>
+                    <div class="experience-item">
+                        <h4>AI Research Intern</h4>
+                        <p class="text-muted">mPower Social Enterprises Ltd. (Jan '25–Present)</p>
+                        <ul>
+                            <li>Developing an AI-driven knowledge management system</li>
+                            <li>Conducting stakeholder interviews and gap analysis</li>
+                            <li>Implementing GenAI/LLM solutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Education</h3>
+                    <div class="education-item mb-3">
+                        <h4>North South University</h4>
+                        <p class="mb-1">B.Sc. in Computer Science and Engineering (CSE)</p>
+                        <p class="text-muted">CGPA: 3.57/4.00 (2019–2024)</p>
+                        <p class="small">Key Coursework: Computer Engineering Fundamentals, Data Structures 
+                           and Algorithms, AI, ML, CNN, OOP</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Bangladesh Air Force Shaheen College, Dhaka</h4>
+                        <p class="mb-1">Higher Secondary Certificate</p>
+                        <p class="text-muted">GPA: 4.75/5.00 (2017–2018)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Skills</h3>
+                    <div class="skill-categories">
+                        <div class="skill-category mb-3">
+                            <h4 class="h6 mb-2">Programming Languages</h4>
+                            <div class="skill-tags">
+                                <span class="badge bg-primary">Python</span>
+                                <span class="badge bg-primary">Java</span>
+                                <span class="badge bg-primary">C</span>
+                                <span class="badge bg-primary">C++</span>
+                                <span class="badge bg-primary">JavaScript</span>
+                                <span class="badge bg-primary">PHP</span>
+                                <span class="badge bg-primary">SQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-category mb-3">
+                            <h4 class="h6 mb-2">AI, ML, DL, NLP & CV Tools</h4>
+                            <div class="skill-tags">
+                                <span class="badge bg-success">TensorFlow</span>
+                                <span class="badge bg-success">PyTorch</span>
+                                <span class="badge bg-success">Keras</span>
+                                <span class="badge bg-success">Scikit-learn</span>
+                                <span class="badge bg-success">HuggingFace</span>
+                                <span class="badge bg-success">OpenCV</span>
+                                <span class="badge bg-success">Ollama</span>
+                                <span class="badge bg-success">MLflow</span>
+                            </div>
+                        </div>
+                        <div class="skill-category mb-3">
+                            <h4 class="h6 mb-2">Frameworks & Libraries</h4>
+                            <div class="skill-tags">
+                                <span class="badge bg-secondary">NumPy</span>
+                                <span class="badge bg-secondary">Pandas</span>
+                                <span class="badge bg-secondary">Matplotlib</span>
+                                <span class="badge bg-secondary">Seaborn</span>
+                                <span class="badge bg-secondary">SciPy</span>
+                                <span class="badge bg-secondary">Streamlit</span>
+                                <span class="badge bg-secondary">React</span>
+                                <span class="badge bg-secondary">LangChain</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4 class="h6 mb-2">Databases & Cloud</h4>
+                            <div class="skill-tags">
+                                <span class="badge bg-info">MySQL</span>
+                                <span class="badge bg-info">MongoDB</span>
+                                <span class="badge bg-info">Neo4j</span>
+                                <span class="badge bg-info">Firebase</span>
+                                <span class="badge bg-info">AWS</span>
+                                <span class="badge bg-info">Power BI</span>
+                                <span class="badge bg-info">Docker</span>
+                                <span class="badge bg-info">Google Cloud</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Achievements</h3>
+                    <ul class="achievement-list">
+                        <li>Cum Laude distinction from North South University</li>
+                        <li>Shah Cement Presents SSC Bright Star 2016 Award</li>
+                        <li>Certificate of Appreciation (Team Leader) - 'Warmth For Everyone'</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

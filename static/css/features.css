@@ -1,0 +1,51 @@
+.features-container {
+    padding: 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    border-radius: 10px;
+    padding: 1rem;
+    height: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    color: white;
+}
+
+.feature-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.feature-card ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-size: 0.85rem;
+}
+
+.feature-card ul li {
+    padding: 0.3rem 0 0.3rem 1rem;
+    position: relative;
+}
+
+.feature-card ul li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    opacity: 0.8;
+}
+
+/* Theme Colors */
+.theme-navy { background: linear-gradient(145deg, #002141, #021592); }
+.theme-royal { background: linear-gradient(145deg, #283593, #3949ab); }
+.theme-azure { background: linear-gradient(145deg, #2375d3, #125699); }
+.theme-cobalt { background: linear-gradient(145deg, #4baad6, #014b72d5); }
+.theme-indigo { background: linear-gradient(145deg, #04c283, #087fb6); }
+.theme-slate { background: linear-gradient(145deg,  #168146, #07717a); }
+.theme-marine { background: linear-gradient(145deg, #144718, #0e6870); }
+.theme-midnight { background: linear-gradient(145deg, #405a4b, #113021); }

@@ -1,0 +1,495 @@
+Entity,Type
+March 2023,DATE
+10.1063/5.0114074,CARDINAL
+1 176,CARDINAL
+4,CARDINAL
+Mohammad Aloun Muhammad Suzuri Hitam,PERSON
+Arab University University of Malaysia,ORG
+Terengganu,GPE
+6,CARDINAL
+PUBLICATIONS,ORG
+10,CARDINAL
+CITATIONS,ORG
+85,CARDINAL
+PUBLICATIONS,ORG
+869,CARDINAL
+Wan Yussof,PERSON
+University of Malaysia,ORG
+Terengganu,ORG
+62,CARDINAL
+PUBLICATIONS,ORG
+753,CARDINAL
+Mohammad Aloun,PERSON
+21 October 2023,DATE
+2484,DATE
+060013,ORG
+2023,DATE
+23,CARDINAL
+March 2023,DATE
+Mohammad Sameer Aloun,PERSON
+Muhammad Suzuri Hitam,PERSON
+Wan Nural,PERSON
+Jawahir Hj Wan Yussof,PERSON
+al,PERSON
+2484,DATE
+060013,ORG
+2023,DATE
+2484,DATE
+060013,DATE
+2023,DATE
+"Colour and Texture Features
+Mohammad Sameer Aloun1,a",ORG
+Muhammad Suzuri,PERSON
+Wan Nural,PERSON
+"Jawahir Hj
+",PERSON
+"Wan Yussof1,c",PERSON
+"Zainudin Bachok2,d",PERSON
+1Faculty,CARDINAL
+Ocean Engineering Technology and Informatics,ORG
+Universiti,GPE
+Malaysia Terengganu,GPE
+Malaysia,GPE
+Oceanography and Environment,ORG
+Universiti Malaysia Terengganu,ORG
+UMT,ORG
+Malaysia,GPE
+1,CARDINAL
+2,CARDINAL
+3,CARDINAL
+4,CARDINAL
+5,CARDINAL
+6,CARDINAL
+7,CARDINAL
+8,CARDINAL
+9,CARDINAL
+10,CARDINAL
+11,CARDINAL
+12,CARDINAL
+13,CARDINAL
+14,CARDINAL
+recent decades,DATE
+15,CARDINAL
+two,CARDINAL
+16,CARDINAL
+"17],[18",CARDINAL
+1,CARDINAL
+18,CARDINAL
+1st International Postgraduate Conference on Ocean Engineering Technology and,ORG
+2021,DATE
+2021,DATE
+Proc. 2484,DATE
+AIP Publishing,ORG
+978,CARDINAL
+1,CARDINAL
+18,CARDINAL
+three,CARDINAL
+19,CARDINAL
+one,CARDINAL
+the recent years,DATE
+20,CARDINAL
+21,CARDINAL
+one,CARDINAL
+one,CARDINAL
+22,CARDINAL
+One,CARDINAL
+22,CARDINAL
+One,CARDINAL
+22,CARDINAL
+Segmentation Method,ORG
+two,CARDINAL
+two,CARDINAL
+two,CARDINAL
+23,CARDINAL
+Canny,ORG
+zero,CARDINAL
+24,CARDINAL
+"Segmentation
+Threshold",ORG
+One,CARDINAL
+three,CARDINAL
+25,CARDINAL
+Global Threshold,PERSON
+26,CARDINAL
+Local Threshold,PERSON
+26,CARDINAL
+26,CARDINAL
+060013,CARDINAL
+26,CARDINAL
+27,CARDINAL
+K-Means Clustering,ORG
+26,CARDINAL
+27,CARDINAL
+Fuzzy C-Means Clustering,ORG
+1973,DATE
+Dunn,ORG
+1981,DATE
+Bezdek,ORG
+28,CARDINAL
+29,CARDINAL
+CNN,ORG
+30,CARDINAL
+23,CARDINAL
+two,CARDINAL
+three,CARDINAL
+31,CARDINAL
+two,CARDINAL
+Shah Model,PERSON
+23,CARDINAL
+060013,CARDINAL
+six,CARDINAL
+32,CARDINAL
+two,CARDINAL
+2,CARDINAL
+33,CARDINAL
+1,CARDINAL
+Classes Methods,WORK_OF_ART
+Law,PERSON
+F,PRODUCT
+Locally,ORG
+Mosaic,PRODUCT
+Two,CARDINAL
+Two,CARDINAL
+Two,CARDINAL
+060013,CARDINAL
+2,CARDINAL
+"Subjective Methods
+One",WORK_OF_ART
+34,CARDINAL
+Direct Evaluation and Indirect Evaluation,ORG
+34,CARDINAL
+Evaluation and Empirical Evaluation,WORK_OF_ART
+two,CARDINAL
+two,CARDINAL
+two,CARDINAL
+one,CARDINAL
+One,CARDINAL
+060013,CARDINAL
+GT,ORG
+34,CARDINAL
+"Evaluation Parameter of Image Segmentation
+",ORG
+2,CARDINAL
+TABLE 2,ORG
+PRI,ORG
+Variation of Measures,ORG
+one,CARDINAL
+two,CARDINAL
+VoI,ORG
+Global Computes,PERSON
+two,CARDINAL
+"Conssitency
+Error",ORG
+Boundary Measures,ORG
+BDE,ORG
+F Measures,PRODUCT
+F,PRODUCT
+F,PRODUCT
+F,PRODUCT
+Rand,ORG
+GT,GPE
+NPR,ORG
+NPR,ORG
+GT,GPE
+Signatures,PERSON
+DBS,ORG
+Hamming Calculates,PERSON
+GT,ORG
+GT,GPE
+GT,ORG
+060013,CARDINAL
+F-Measure,PRODUCT
+Merit,PERSON
+FOM,ORG
+ROC,GPE
+this era,DATE
+the last three decades,DATE
+1,CARDINAL
+S. R. Price,PERSON
+C. D. Price,ORG
+C. B. Blount,PERSON
+Proc,GPE
+Pattern Recognition,ORG
+Tracking XXIX,PERSON
+10649,DATE
+International Society for Optics and Photonics,ORG
+2018,DATE
+2,CARDINAL
+T. Hershkovitch,PERSON
+T. Riklin-Raviv,PERSON
+2018,DATE
+15th,ORDINAL
+International Symposium on Biomedical Imaging,ORG
+IEEE,ORG
+pp,GPE
+1373-1376,DATE
+3,CARDINAL
+L. C. Chen,PERSON
+G. Papandreou,PERSON
+I. Kokkinos,PERSON
+K. Murphy,PERSON
+A. L. Yuille,PERSON
+"DeepLab: Semantic Image
+Segmentation",ORG
+Fully Connected,ORG
+Transactions on Pattern Analysis,ORG
+Machine Intelligence,PERSON
+834,CARDINAL
+2017,DATE
+4,CARDINAL
+S. Saito,PERSON
+T. Li,PERSON
+H. Li,PERSON
+RGB,ORG
+European Conference on Computer Vision,ORG
+pp,GPE
+244-261,CARDINAL
+5,CARDINAL
+R. Panahi,PERSON
+I. Gholampour,PERSON
+18(4,CARDINAL
+767-779,PRODUCT
+2016,DATE
+6,CARDINAL
+M. M. Cheng,PERSON
+N. J. Mitra,PERSON
+X. Huang,PERSON
+P. H. Torr,PERSON
+S. M. Hu,PERSON
+Pattern Analysis,ORG
+Machine Intelligence,PERSON
+37(3,CARDINAL
+569,CARDINAL
+2014,DATE
+7,CARDINAL
+A. Akagic,PERSON
+S. Omanovic,PERSON
+2017 10th,DATE
+International Conference on Electrical and Electronics Engineering,ORG
+IEEE,ORG
+2017,DATE
+pp,GPE
+1181-1186,DATE
+8,CARDINAL
+L. Wang,PERSON
+Y. Chang,PERSON
+H. Wang,PERSON
+Z. Wu,PERSON
+J. Pu,PERSON
+X. Yang,PERSON
+Information Sciences,ORG
+418,CARDINAL
+61-73,DATE
+2017,DATE
+9,CARDINAL
+Li,GPE
+Gao,PERSON
+L.,PERSON
+Jiang,PERSON
+M. Chen,PERSON
+2018,DATE
+IEEE 3rd International Conference on Image,ORG
+Vision,ORG
+Computing,PERSON
+IEEE,ORG
+2018,DATE
+pp,GPE
+311-315,CARDINAL
+10,CARDINAL
+D. Li,PERSON
+J. Zhang,PERSON
+J. Yang,PERSON
+Y. Shangguan,PERSON
+Automatic,NORP
+PloS,PERSON
+"one, 14(1",CARDINAL
+2019,DATE
+11,CARDINAL
+T. Su,PERSON
+ISPRS Journal,ORG
+Remote Sensing,PERSON
+147,CARDINAL
+334,CARDINAL
+2019,DATE
+060013,CARDINAL
+12,CARDINAL
+R.,NORP
+A. Z. Arifin,PERSON
+N. Suciati,PERSON
+E. R. Astuti,PERSON
+T. Kurita,PERSON
+Automatic,GPE
+CT,ORG
+"International
+Journal of Intelligent Engineering and Systems",ORG
+12,CARDINAL
+130,CARDINAL
+2019,DATE
+13,CARDINAL
+S. Agrawal,PERSON
+R. Panda,PERSON
+A. Abraham,PERSON
+48,DATE
+119,CARDINAL
+2019,DATE
+14,CARDINAL
+M. W. Khan,PERSON
+International Journal of Future Computer,ORG
+3(2,CARDINAL
+89,DATE
+2014,DATE
+15,CARDINAL
+H. Zhu,PERSON
+F. Meng,PERSON
+J. Cai,PERSON
+S. Lu,PERSON
+Journal of Visual Communication and Image Representation,ORG
+34,DATE
+12,CARDINAL
+2016,DATE
+16,CARDINAL
+M. Fiterau,PERSON
+A. Criminisi,NORP
+the IEEE International Conference on Computer Vision,ORG
+IEEE,ORG
+2015,DATE
+pp,GPE
+1467-1475,DATE
+17,CARDINAL
+X. Ren,PERSON
+J. Malik,PERSON
+Ninth,ORDINAL
+International Conference on Computer Vision,ORG
+IEEE,ORG
+2003,DATE
+pp,GPE
+1-8,CARDINAL
+18,CARDINAL
+S. Das,PERSON
+P. N. Suganthan,PERSON
+P. K. Nanda,PERSON
+the Third International Conference SEMCCO,ORG
+Chennai,GPE
+India,GPE
+2010,DATE
+pp,GPE
+16-18,CARDINAL
+19,CARDINAL
+K. Hochegger,PERSON
+X. Chen,PERSON
+I. Mischak,PERSON
+K. Reinbacher,PERSON
+M. Pau,PERSON
+J. Egger,PERSON
+PLoS One,PERSON
+13(5,CARDINAL
+2018,DATE
+20,CARDINAL
+Y. El Merabet,PERSON
+C. Meurie,GPE
+Y. Ruichek,PERSON
+A. Sbihi,PERSON
+R. Touahni,PERSON
+Building,GPE
+lineand,NORP
+15(2,CARDINAL
+3172-3203,DATE
+2015,DATE
+21,CARDINAL
+Q. Wang,PERSON
+Z. Wang,PERSON
+Asian,NORP
+"Springer, Berlin",GPE
+Heidelberg,GPE
+2009,DATE
+pp,GPE
+53-64,CARDINAL
+22,CARDINAL
+R. Dass,PERSON
+M. Duhan,PERSON
+2nd,ORDINAL
+Computing and Networking,WORK_OF_ART
+Singapore,GPE
+2019,DATE
+359-374,CARDINAL
+23,CARDINAL
+Singapore,GPE
+2019,DATE
+pp,GPE
+233-239,CARDINAL
+24,CARDINAL
+W. Phornphatcharaphong,PERSON
+N. Eua-Anant,PERSON
+a Vector Image Field,ORG
+Journal of Imaging,ORG
+6(7,CARDINAL
+72,DATE
+2020,DATE
+25,CARDINAL
+S. Yuheng,PERSON
+Y. Hao,PERSON
+2017,DATE
+26,CARDINAL
+K. Manu,PERSON
+Harmony,NORP
+Singapore,GPE
+2019,DATE
+1123-1140,DATE
+27,CARDINAL
+N. Dhanachandra,PERSON
+Y. J. Chanu,PERSON
+European Journal of Engineering and Technology Research,ORG
+2(1,DATE
+15-20,CARDINAL
+2017,DATE
+28,CARDINAL
+S. S. Chouhan,PERSON
+A. Kaul,PERSON
+U. P. Singh,PERSON
+Multimedia Tools and,ORG
+28483-28537,DATE
+2018,DATE
+29,CARDINAL
+V. K. Govindan,PERSON
+Conventional Neural Network,WORK_OF_ART
+Image Segmentation,ORG
+Computer Networks,ORG
+Intelligent Computing,PERSON
+2011,DATE
+190,CARDINAL
+30,CARDINAL
+P. Mohamed Shakeel,ORG
+S. Baskar,PERSON
+International Journal of Signal,ORG
+Imaging Systems Engineering,ORG
+11(5,CARDINAL
+270,CARDINAL
+2019,DATE
+31,CARDINAL
+S. Kornilov,ORG
+I. V. Safonov,PERSON
+Journal of Imaging,ORG
+123,CARDINAL
+2018,DATE
+32,CARDINAL
+A. Humeau-Heurtier,PERSON
+IEEE Access,ORG
+7,DATE
+8975-9000,DATE
+2018,DATE
+33,CARDINAL
+J. Cervantes,GPE
+A. López,PERSON
+L. Rodriguez,PERSON
+292,CARDINAL
+1,CARDINAL
+2018,DATE
+34,CARDINAL
+Z. Wang,PERSON
+E. Wang,PERSON
+Y. Zhu,PERSON
+"Artificial Intelligence
+Review",ORG
+5637-5674,DATE
+2020,DATE
+060013,CARDINAL

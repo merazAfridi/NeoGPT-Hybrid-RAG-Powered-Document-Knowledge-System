@@ -1,0 +1,107 @@
+Entity,Type
+Gazi Meraz Mehedi,PERSON
+Bashundhara,PERSON
+Dhaka,ORG
+§,NORP
+PROFILE,ORG
+"Machine Learning, Computer Vision",ORG
+Natural Language Processing,ORG
+NLP,ORG
+Java,PERSON
+C++,PERSON
+AI/ML,ORG
+TensorFlow,ORG
+Keras,ORG
+PyTorch,ORG
+mPower Social Enterprises Ltd. Jan,ORG
+25,CARDINAL
+Bangladesh,GPE
+AI,GPE
+Knowledge Management System,ORG
+KMS,ORG
+GenAI/LLM,ORG
+• Collecting,ORG
+AI,GPE
+AI/LLM,ORG
+North South University,LOC
+2019,DATE
+2024,CARDINAL
+Computer Science and Engineering,ORG
+CSE,ORG
+3.57/4.00,CARDINAL
+Computer Engineering Fundamentals,ORG
+Data Structures,ORG
+Artificial Intelligence,ORG
+Machine Learning,PERSON
+Convolutional Neural Network,ORG
+"Object-Oriented Programming
+Bangladesh Air Force Shaheen College",ORG
+Dhaka,ORG
+2017,DATE
+2018,DATE
+GPA,ORG
+4.75/5.00,CARDINAL
+Java,PERSON
+C++,PERSON
+JavaScript,ORG
+PHP,ORG
+HTML,ORG
+"SQL
+• AI",ORG
+ML,ORG
+DL,ORG
+NLP & CV,ORG
+TensorFlow,ORG
+Keras,ORG
+PyTorch,ORG
+ScikitLearn,ORG
+MLflow,PERSON
+"Ollama, HuggingFace",ORG
+Pandas,PERSON
+Matplotlib,PERSON
+Seaborn,LOC
+Flask,GPE
+Streamlit,PERSON
+React,GPE
+LangChain,ORG
+Neo4j,PERSON
+Firebase,ORG
+AWS,ORG
+Google Cloud,PERSON
+Docker,PERSON
+North South University,ORG
+NPO,ORG
+• Collected,ORG
+45 years,DATE
+R2,DATE
+0.9778,CARDINAL
+Python,ORG
+TensorFlow,ORG
+Keras,PERSON
+Pandas,PERSON
+Matplotlib,PERSON
+Seaborn,LOC
+91.5%,PERCENT
+92.7%,PERCENT
+96.3%,PERCENT
+Python,ORG
+TensorFlow,ORG
+Keras,PERSON
+Automated Fault Detection and Analysis: Semantic Segmentation of,ORG
+Dice Score,ORG
+0.91%,PERCENT
+99.7%,PERCENT
+Jaccard Index,PERSON
+0.97%,PERCENT
+PyTorch,PERSON
+Grad-CAM,ORG
+Python,PERSON
+Ollama’s,PERSON
+AI,GPE
+North South University,ORG
+2022–2024,CARDINAL
+2021–2023,CARDINAL
+B.A.F Shaheen College Dhaka Science Club,ORG
+2017–2018,CARDINAL
+• Campus Ambassador & Team,ORG
+2017–2018,CARDINAL

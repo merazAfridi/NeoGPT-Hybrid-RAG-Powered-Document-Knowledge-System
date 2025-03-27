@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block title %}Features - NeoGPT{% endblock %}
+
+{% block content %}
+<div class="features-container">
+    <div class="row g-3">
+        <!-- Document Processing -->
+        <div class="col-md-3">
+            <div class="feature-card theme-navy">
+                <h3><i class="bi bi-file-earmark-text"></i> Document Processing</h3>
+                <ul>
+                    <li><strong>Multiple Format Support:</strong> PDF, DOCX, CSV</li>
+                    <li><strong>Secure File Handling:</strong> Size limits</li>
+                    <li><strong>Chunk Processing:</strong> Smart text splitting</li>
+                    <li><strong>Batch Upload:</strong> Multi-document processing</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- NLP -->
+        <div class="col-md-3">
+            <div class="feature-card theme-royal">
+                <h3><i class="bi bi-braces"></i> Natural Language Processing</h3>
+                <ul>
+                    <li><strong>Entity Extraction:</strong> Key entity detection</li>
+                    <li><strong>Relationship Detection:</strong> Entity connections</li>
+                    <li><strong>Semantic Analysis:</strong> Context processing</li>
+                    <li><strong>SpaCy Integration:</strong> Advanced NLP tools</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Knowledge Management -->
+        <div class="col-md-3">
+            <div class="feature-card theme-azure">
+                <h3><i class="bi bi-diagram-3"></i> Knowledge Management</h3>
+                <ul>
+                    <li><strong>Vector Store:</strong> FAISS indexing</li>
+                    <li><strong>Knowledge Graph:</strong> Entity visualization</li>
+                    <li><strong>Graph Export:</strong> PNG format</li>
+                    <li><strong>Data Storage:</strong> CSV persistence</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Search & Query -->
+        <div class="col-md-3">
+            <div class="feature-card theme-cobalt">
+                <h3><i class="bi bi-search"></i> Search & Query</h3>
+                <ul>
+                    <li><strong>Semantic Search:</strong> FAISS-powered</li>
+                    <li><strong>Multi-Doc Queries:</strong> Cross-search</li>
+                    <li><strong>Smart Responses:</strong> Context-aware</li>
+                    <li><strong>Graph Search:</strong> Entity traversal</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- AI Integration -->
+        <div class="col-md-3">
+            <div class="feature-card theme-indigo">
+                <h3><i class="bi bi-cpu"></i> AI Integration</h3>
+                <ul>
+                    <li><strong>LLaMA 2:</strong> Advanced LLM</li>
+                    <li><strong>Hybrid Search:</strong> Combined search</li>
+                    <li><strong>Context Understanding:</strong> Smart AI</li>
+                    <li><strong>Temperature Control:</strong> Response tuning</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Security -->
+        <div class="col-md-3">
+            <div class="feature-card theme-slate">
+                <h3><i class="bi bi-shield-check"></i> Security & Performance</h3>
+                <ul>
+                    <li><strong>Local Processing:</strong> On-premises</li>
+                    <li><strong>Size Control:</strong> File restrictions</li>
+                    <li><strong>Safe Operations:</strong> Secure handling</li>
+                    <li><strong>Resource Manager:</strong> Memory control</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- UI/UX -->
+        <div class="col-md-3">
+            <div class="feature-card theme-marine">
+                <h3><i class="bi bi-window"></i> User Interface</h3>
+                <ul>
+                    <li><strong>Web UI:</strong> Flask frontend</li>
+                    <li><strong>Real-time:</strong> Quick analysis</li>
+                    <li><strong>Interactive:</strong> Dynamic queries</li>
+                    <li><strong>Visual:</strong> Graph display</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Core Features -->
+        <div class="col-md-3">
+            <div class="feature-card theme-midnight">
+                <h3><i class="bi bi-gear"></i> Core Features</h3>
+                <ul>
+                    <li><strong>GPU Support:</strong> CUDA enabled</li>
+                    <li><strong>Smart Cache:</strong> Efficient storage</li>
+                    <li><strong>Error Handling:</strong> Robust logs</li>
+                    <li><strong>Async Tasks:</strong> Non-blocking operations</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

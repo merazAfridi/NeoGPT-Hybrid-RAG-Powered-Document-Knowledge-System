@@ -1,0 +1,88 @@
+Entity,Type
+"Football Basics
+Check",PERSON
+"The Basics of the Game
+",WORK_OF_ART
+One,CARDINAL
+11,CARDINAL
+11,CARDINAL
+"four
+quarters",CARDINAL
+100 yards,QUANTITY
+53 yards,QUANTITY
+an additional 10 yards,QUANTITY
+3,CARDINAL
+Only 11,CARDINAL
+one,CARDINAL
+QB,GPE
+2,CARDINAL
+2,CARDINAL
+2/4,CARDINAL
+QB,GPE
+1,CARDINAL
+2,CARDINAL
+1,CARDINAL
+2,CARDINAL
+11,CARDINAL
+"The Defensive Players
+",WORK_OF_ART
+QB,GPE
+QB,GPE
+four,CARDINAL
+12-minute quarters,TIME
+NYFL,ORG
+4,CARDINAL
+1,CARDINAL
+1,CARDINAL
+2,CARDINAL
+three,CARDINAL
+Kickoff,ORG
+40-yard,QUANTITY
+20,CARDINAL
+four,CARDINAL
+10 yards,QUANTITY
+10,CARDINAL
+first,ORDINAL
+four,CARDINAL
+10 yards,QUANTITY
+10 yards,QUANTITY
+first,ORDINAL
+fourth,ORDINAL
+Pass,ORG
+two,CARDINAL
+first,ORDINAL
+The Pass: The,WORK_OF_ART
+scrimmage,CARDINAL
+one,CARDINAL
+two,CARDINAL
+The Fumble: When,WORK_OF_ART
+Helpful Terms,ORG
+scrimmage,CARDINAL
+Backfield,GPE
+scrimmage,CARDINAL
+Blitz,ORG
+at least one,CARDINAL
+scrimmage,CARDINAL
+Extra,NORP
+1,CARDINAL
+2,CARDINAL
+2,CARDINAL
+3,CARDINAL
+only one,CARDINAL
+scrimmage,CARDINAL
+Intentional,PERSON
+second,ORDINAL
+half,CARDINAL
+scrimmage,CARDINAL
+Lineman,PERSON
+scrimmage,CARDINAL
+5th,ORDINAL
+scrimmage,CARDINAL
+scrimmage,CARDINAL
+2,CARDINAL
+1,CARDINAL
+two,CARDINAL
+2,CARDINAL
+Touchdown,GPE
+6,CARDINAL
+one,CARDINAL
